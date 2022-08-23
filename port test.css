@@ -1,0 +1,144 @@
+:root {
+    --gradient: linear-gradient(
+        45deg,
+        rgb(5, 5, 34),
+        rgb(7, 7, 43),
+        rgb(9, 9, 55),
+        rgb(11, 11, 70),
+        rgb(11, 11, 70),
+        rgb(46, 1, 46),
+        rgb(59, 0, 59),
+        rgb(65, 0, 38),
+        rgb(63, 0, 26)
+    );
+}
+
+@keyframes bg-animation {
+    0% {background-position: left}
+    100% {background-position: right;}
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(5, 5, 34);
+    background-image: var(--gradient);
+    background-size: 400%;
+    animation: bg-animation 30s infinite alternate;
+}
+
+.img {
+    display: flex;
+    padding: 10px;
+    width: 55px;
+}
+
+.div2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.pic {
+    border-radius: 50%;
+    width: 300px;
+    height: 350px;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+}
+.move {
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.sect {
+    display: flex;
+}
+
+.div0 {
+    margin: 120px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.div1 {
+    margin: 55px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.div2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pic:hover {
+    width: 350px;
+    height: 400px;
+}
+
+h1:hover {
+    font-size: 50px;
+}
+
+.h1 {
+    width: 650px;
+}
+
+.p {
+    font-size: large;
+    color: wheat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#ig:hover {
+    padding: 0px;
+    width: 90px;
+}
+
+#fb:hover {
+    padding: 0px;
+    width: 90px;
+}
+
+#twi:hover {
+    padding: 0px;
+    width: 90px;
+}
+
+button {
+    background-color: black;
+    color: #ffff;
+    height: 40px;
+    width: 200px;
+    border-radius: 30%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button:active {
+    background-image: linear-gradient( rgb(59, 49, 49), white);
+    height: 35px;
+    width: 175px;
+}
+button:hover {
+    border: 1px solid white;
+}
+
+button {
+    border: 0;
+    padding: 0.Sem 1.Sem;
+    background-image: linear-gradient(45deg, red, blue, purple);
+}
+
+
+body{
+    background: #ddd;
+    
+}
