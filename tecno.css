@@ -15,7 +15,7 @@
          /* margin-top: 50px; */
     }
 body{
-    /* background-image: url(photos/lko.jpg); */
+    /* background-image: url(photos/jj.jpg); */
     /* background-position: center; */
   /* background-size: cover; */
 }
@@ -124,7 +124,8 @@ padding: 20px;
 }
 
 .youtube {
-  background: #bb0000;
+  /* background: #bb0000; */
+  background: green;
   color: white;
 }
 .nome{
@@ -132,50 +133,47 @@ padding: 20px;
         width: 250px;
         height: 250px;
 }
+
 .far{
-/* width: 100px; */
-display: flex;
-}
-.mkou{
-  width: 450px;
-  height: 450px;
-}
-.far div{
-  padding: 20px;
-}
-.item-group{
+  /* width: 100px; */
   display: flex;
-  /* padding: 50px; */
-  /* margin-left: 10px; */
-}
-.item-group div{
-  padding: 20px;
-}
-.njuo{
-  background-color: yellow;
-  color: black;
-  border-style: none;
-  padding: 20px;
-  width: 60%;
-}
-.njua{
-  /* background-color: yellow; */
-  opacity: 1;
-  color: black;
-  border-style: none;
-  padding: 20px;
-  width: 60%;
-}
-button:hover{
-  background-color: grey;
-}
-.konrt{
-  width: 250px;
-  height: 250px;
-}
-.item-droup{
-  display: flex;
-}
-.item-droup div{
-  padding: 85px;
-}
+  }
+  .mkou{
+    width: 450px;
+    height: 450px;
+  }
+  .far div{
+    padding: 20px;
+  }
+  .item-group{
+    display: flex;
+    /* padding: 50px; */
+    /* margin-left: 10px; */
+  }
+  .item-group div{
+    padding: 20px;
+  }
+  .njuo{
+    background-color: yellow;
+    color: black;
+    border-style: none;
+    padding: 20px;
+    width: 60%;
+  }
+  button:hover{
+    background-color: grey;
+  }
+  .konrt{
+    width: 250px;
+    height: 250px;
+  }
+  .item-droup{
+    display: flex;
+  }
+  .item-droup div{
+    padding: 85px;
+  }
+  .jokerf{
+    width: 450px;
+    height: 450px;
+  }

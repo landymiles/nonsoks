@@ -110,7 +110,7 @@
          top: 40%;
          left: 50%;
          transform: translate(-50%, -50%); */
-         padding: 65px;
+         /* padding: 65px; */
     }
     .khk{
         border-bottom: 5px solid red;
@@ -150,12 +150,12 @@
     }
     #sprc{
         text-align: center;
-        top: 5%;
-        left: 20%;
+        /* top: 5%; */
+        /* left: 20%; */
         padding: 15px;
         /* border-radius: 15px; */
         /* border: solid; */
-        position: absolute;
+        /* position: absolute; */
         height: 20px;
         width: 800px;
         float: right;
@@ -173,9 +173,9 @@
   margin-bottom: 20px;
 }
 .bhuik{
-  padding: 70px;
   width: 250px;
   height: 250px;
+  border-radius: 15px;
 }
 #controlNBtn:hover{
 background-color: white;
@@ -363,7 +363,7 @@ input{
   border: none;
   outline: none;
   padding: 20px;
-  border-radius: 50%;
+  border-radius: 15px;
 }
 button{
   border: none;
@@ -386,5 +386,324 @@ button{
   box-shadow: #333;
 }
 .mogo{
-  border: 10px solid black;
+  /* border: 10px solid black; */
+}
+.bhuik:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: expand 0.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: 1;
+  animation-direction: forward;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+@keyframes expand {
+  0%{
+    transform: scale(1, 1);
+  }
+  100%{
+    transform: scale(1.5, 1.5);
+  }
+}
+ /* Container holding the image and the text */
+ .container {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+} 
+.kok{
+  display: flex;
+  align-items: center;
+}
+
+.item-group{
+  display: flex;
+}
+
+.item-group div{
+  padding: 85px;
+}
+.dave{
+  text-align: center;
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+/* .fade {
+  animation-name: slide;
+  animation-duration: 2.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+} */
+
+.koklk{
+  /* background-image: linear-gradient( 45deg,pink,white) ; */
+ background-color: bisque;
+}
+.koklop{
+  /* border: 1px solid #000; */
+  border-radius: 15px; 
+  margin: 2px;
+  
+}
+.koklop:hover{
+  animation-name: expand;
+  animation-duration: 1.5sec;
+}
+.mkopl{
+  background-color: blue;
+  padding: 0px;
+  border-radius: 30px;
+  margin: 50px;
+}
+.jolpk{
+  display: flex;
+  background-color: yellow;
+  height: 800px;
+}
+.jolpk div{
+  padding: 85px;
+  /* text-align: center; */
+  /* width: 300px; */
+}
+.jokplm{
+  /* text-align: center; */
+}
+.joldck{
+  display: flex;
+  background-color: yellow;
+}
+.joldck div{
+  padding: 85px;
+  /* text-align: center; */
+  /* align-items: center; */
+  /* width: 300px; */
+}
+.laura{
+  align-items: center;
+  text-align: center;
+  
+}
+/* body {
+	-webkit-animation: color-change-5x 8s linear infinite alternate both;
+	        animation: color-change-5x 8s linear infinite alternate both;
+} */
+
+
+/* ----------------------------------------------
+ * Generated by Animista on 2022-8-24 14:20:26
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation color-change-5x
+ * ----------------------------------------
+ */
+ /* @-webkit-keyframes color-change-5x {
+  0% {
+    background: #19dcea;
+  }
+  25% {
+    background: #b22cff;
+  }
+  50% {
+    background: #ea2222;
+  }
+  75% {
+    background: #f5be10;
+  }
+  100% {
+    background: #3bd80d;
+  }
+}
+@keyframes color-change-5x {
+  0% {
+    background: #19dcea;
+  }
+  25% {
+    background: #b22cff;
+  }
+  50% {
+    background: #ea2222;
+  }
+  75% {
+    background: #f5be10;
+  }
+  100% {
+    background: #3bd80d;
+  }
+} */
+.fade {
+    -webkit-animation: shadow-inset-bottom 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: shadow-inset-bottom 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	-webkit-animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2022-8-24 14:23:57
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation slide-right
+ * ----------------------------------------
+ */
+ @-webkit-keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(100px);
+            transform: translateX(100px);
+  }
+}
+@keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(100px);
+            transform: translateX(100px);
+  }
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2022-8-24 14:29:1
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation shadow-inset-bottom
+ * ----------------------------------------
+ */
+ @-webkit-keyframes shadow-inset-bottom {
+  0% {
+    -webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+            box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: inset 0 -6px 14px -6px rgba(0, 0, 0, 0.5);
+            box-shadow: inset 0 -6px 14px -6px rgba(0, 0, 0, 0.5);
+  }
+}
+@keyframes shadow-inset-bottom {
+  0% {
+    -webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+            box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: inset 0 -6px 14px -6px rgba(0, 0, 0, 0.5);
+            box-shadow: inset 0 -6px 14px -6px rgba(0, 0, 0, 0.5);
+  }
 }

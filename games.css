@@ -15,12 +15,14 @@
          /* margin-top: 50px; */
     }
 body{
-    background-image: url(photos/jj.jpg);
-    background-position: center;
-  background-size: cover;
+    /* background-image: url(photos/jj.jpg); */
+    /* background-position: center; */
+  /* background-size: cover; */
 }
 .fa:hover{
-background-color: black;
+background-color: red;
+display: flex;
+justify-content: center;
 padding: 20px;
 }
 .bhyj{
@@ -126,18 +128,53 @@ padding: 20px;
   background: green;
   color: white;
 }
-h1{
-    border-bottom: 5px solid red;
-}
-.knife{
-    display: flex;
-    justify-content: center;
-}
 .nome{
         padding: 70px;
         width: 250px;
         height: 250px;
 }
-.far .fa{
-width: 100px;
-}
+
+.far{
+  /* width: 100px; */
+  display: flex;
+  }
+  .mkou{
+    width: 450px;
+    height: 450px;
+  }
+  .far div{
+    padding: 20px;
+  }
+  .item-group{
+    display: flex;
+    /* padding: 50px; */
+    /* margin-left: 10px; */
+  }
+  .item-group div{
+    padding: 20px;
+  }
+  .njuo{
+    background-color: yellow;
+    color: black;
+    border-style: none;
+    padding: 20px;
+    width: 60%;
+  }
+  button:hover{
+    background-color: grey;
+  }
+  .konrt{
+    width: 250px;
+    height: 250px;
+  }
+  .item-droup{
+    display: flex;
+  }
+  .item-droup div{
+    padding: 85px;
+  }
+  .jokerf{
+    width: 450px;
+    height: 450px;
+  }
+  
