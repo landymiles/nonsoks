@@ -1,0 +1,33 @@
+.polert{
+    width: 350px;
+    height: 350px;
+  }
+  .iloveu{
+    display: flex;
+    background-image: linear-gradient(45deg,pink,white);
+    font-size: 30px;
+  }
+  .iloveu div{
+    padding: 20px;
+  }
+  @-webkit-keyframes color-change-5x {
+    0%{
+        background: lightblue;
+    }
+    25%{
+        background: white;
+    }
+    50%{
+        background: lightskyblue;
+    }
+    75%{
+       background: bisque; 
+    }
+    100%{
+        background: pink;
+    }
+}
+body {
+  -webkit-animation: color-change-5x 8s linear infinite alternate both;
+          animation: color-change-5x 8s linear infinite alternate both;
+} 
