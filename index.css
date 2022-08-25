@@ -267,6 +267,12 @@ h1{
   /* justify-content: flex-end; */
 }
 
+.topnav img{
+  width: 100px;
+  height: 50px;
+  margin-right: 150px;
+}
+
 /* Style the links inside the navigation bar */
 .topnav a {
 float: left;
@@ -359,26 +365,18 @@ button{
   border: none;
   float: left;
   background-color: bisque;
+  border-radius: 50%;
   /* background-image: linear-gradient( 45deg,pink,white) ; */
 }
-#src{
-  text-align: center;
-  top: 15%;
-  left: 5%;
-  padding: 15px;
-  border-radius: 15px;
-  border: solid;
-  /* position: absolute; */
-  height: 50px;
-  width: 800px;
-  display: flex;
-}
+
 input{
   width: 600px;
-  border: none;
+  border: 2px solid black;
   outline: none;
   /* padding: 15px; */
   background-color: bisque;
+  padding: 15px;
+  border-radius: 20px;
   /* background-image: linear-gradient( 45deg,pink,white) ; */
 }
 .h3{
@@ -747,3 +745,19 @@ input{
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;} 
+.src{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.daddy{
+  position: relative;
+  margin-left: 100px;
+
+}
+.daddy button{
+  position: absolute;
+  right: 20px;
+  top: 13px;
+  
+}
