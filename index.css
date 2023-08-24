@@ -169,6 +169,7 @@
   width: 250px;
   height: 250px;
   border-radius: 15px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 #controlNBtn:hover{
 background-color: white;
@@ -191,6 +192,7 @@ font-family: Arial, Helvetica, sans-serif;
 h1{
   border-bottom: 5px solid red;
 }
+
 /* The navigation menu */
 .navbar {
   overflow: hidden;
@@ -459,6 +461,8 @@ input{
 /* Hide the images by default */
 .mySlides {
   display: none;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
 }
 
 /* Next & previous buttons */
@@ -568,6 +572,7 @@ input{
   padding: 0px;
   border-radius: 30px;
   margin: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 .jolpk{
   display: flex;
@@ -752,7 +757,7 @@ input{
 
 .daddy{
   position: relative;
-  margin-left: 100px;
+  margin-left: 250px;
 
 }
 .daddy button{
@@ -760,4 +765,54 @@ input{
   right: 20px;
   top: 13px;
   
+}
+.fate{
+  background-color: black;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  /* margin-bottom: 5px; */
+ 
+}
+.date{
+  display: flex;
+}
+.date div{
+  margin: 120px;
+  /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+}
+.grave{
+  text-decoration: none;
+  color: white;
+}
+.dhuik{
+  width: 100px;
+  height: 100px;
+  /* border: 1px solid white; */
+}
+.vikr{
+  color: red;
+}
+.vike{   
+  color: indigo;
+}
+.xiaomi .fa{
+width: 20px;
+}
+.hive{
+display: flex;
+justify-content: center;
+text-decoration: none;
+
+}
+.hive a{
+  text-decoration: none;
+}
+.vue .fa{
+  width: 250px;
+  margin-left: 20px;
+}
+.vs{
+  /* background-image: linear-gradient(45deg,pink,white); */
+  padding: 50px;
+  margin: 40px;
+  border-radius: 15px;
 }

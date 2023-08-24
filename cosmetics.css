@@ -205,9 +205,8 @@
   .item-droup div{
     padding: 85px;
   }
-.cane p{
-  stroke: #000;
-  stroke-linejoin:  round;
+.cane{
+  text-decoration: line-through;
 }  
 
 

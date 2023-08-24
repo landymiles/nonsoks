@@ -177,4 +177,9 @@ padding: 20px;
     width: 450px;
     height: 450px;
   }
-  
+  .bob1{
+    background-image: linear-gradient(45deg,indigo,bisque,pink);
+  }
+  .bob{
+    font-size: 48px;
+  }
